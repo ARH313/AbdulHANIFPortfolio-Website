@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdul Hanif - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="main-nav">
+            <div class="container">
+                <a href="#" class="logo">Abdul Hanif</a>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button class="nav-toggle">
+                    <span class="hamburger"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <h1>Hello, I'm Abdul Hanif</h1>
+                <p>A budding web developer eager to apply my knowledge of HTML, CSS, and JavaScript.</p>
+                <a href="#portfolio" class="button">View My Work</a>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <img src="images/Abdul Hanif IS Final Assignment.png" alt="Abdul Hanif Profile" class="profile-image">
+                    <p>My name is Abdul Hanif, and I'm excited about the world of web development. Through my learning journey, I've gained a solid foundation in the core technologies that power the web: HTML, CSS, and JavaScript.</p>
+                    <p>With **HTML**, I can structure and organize content on a webpage, creating the semantic backbone that ensures accessibility and proper interpretation by browsers. I understand how to use various elements and attributes to build well-formed and meaningful documents.</p>
+                    <p>**CSS** has allowed me to bring style and visual appeal to my HTML structures. I've learned how to control layout, typography, colors, and responsiveness using selectors, properties, and techniques like Flexbox and potentially Grid. I'm focused on creating aesthetically pleasing and user-friendly interfaces.</p>
+                    <p>The dynamic and interactive aspects of web development have been unlocked through **JavaScript**. I'm learning to manipulate the Document Object Model (DOM), handle events, and add behavior to webpages. This includes form validation, basic animations, and making elements respond to user interactions.</p>
+                    <div class="social-links">
+                        <a href="[Your GitHub Profile URL]" target="_blank"><img src="images/GitHub.png" alt="GitHub"></a>
+                    </div>
+                    <p>My email address is <a href="mailto:Abdul.Hanif1@my-aolcc.com">Abdul.Hanif1@my-aolcc.com</a>. I'm eager to continue learning and applying my skills to create engaging and functional web experiences. Please take a look at my portfolio to see some of my work!</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <div class="container">
+                <h2>My Skills</h2>
+                <div class="services-grid">
+                    <div class="service-item">
+                        <img src="images/coding_icon.png" alt="HTML Icon" class="service-icon">
+                        <h3>HTML Structure</h3>
+                        <p>Creating well-structured and semantic HTML for accessible and maintainable websites.</p>
+                    </div>
+                    <div class="service-item">
+                        <img src="images/HTML_CSS_and_Javascript.jpeg" alt="CSS Icon" class="service-icon">
+                        <h3>CSS Styling</h3>
+                        <p>Designing visually appealing and responsive layouts using modern CSS techniques.</p>
+                    </div>
+                    <div class="service-item">
+                        <img src="images/JS_logo.png" alt="JavaScript Icon" class="service-icon">
+                        <h3>Basic JavaScript Interactivity</h3>
+                        <p>Adding fundamental interactive elements and dynamic behavior to webpages.</p>
+                    </div>
+                    </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio">
+            <div class="container">
+                <h2>Portfolio</h2>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item">
+                        <img src="images/HTML_CSS_and_Javascript.jpeg" alt="Project 1">
+                        <h3>Project Title 1</h3>
+                        <p>Brief description of project 1 showcasing HTML, CSS, and basic JavaScript.</p>
+                        <a href="#" target="_blank">View Project</a>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="images/Picture_of_You.jpg" alt="Project 2">
+                        <h3>Project Title 2</h3>
+                        <p>Another project demonstrating your web development skills.</p>
+                        <a href="#" target="_blank">View Project</a>
+                    </div>
+                    </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Your Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="button">Send Message</button>
+                    <div id="formMessage" class="form-message"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Abdul Hanif. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
