@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Basic Reset */
 body, h1, h2, h3, p, ul, li, form, input, textarea, button {
     margin: 0;
@@ -309,3 +310,39 @@ footer {
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust for smaller screens */
     }
 }
+=======
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd;
+}
+
+>>>>>>> a77c2e2ce4ad874822ff80cacbf4de77f916c867
